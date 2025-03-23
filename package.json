@@ -1,0 +1,16 @@
+{
+  "name": "worldretirementfound",
+  "version": "1.0.0",
+  "description": "A prototype Mini App for WorldCoin's World App, integrating a retirement contract on WorldChain.",
+  "scripts": {
+    "dev": "parcel serve public/index.html --port 3000",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "@worldcoin/minikit": "^0.0.1",
+    "ethers": "^5.7.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
